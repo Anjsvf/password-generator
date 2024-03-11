@@ -28,7 +28,7 @@ export  function Home() {
   return (
     <View style={styles.container}>
       <Image
-        source={require("../../assets/logo.png")}
+        source={require("../../assets/mylogo.png")}
         style={styles.logo}
       />
 
@@ -62,7 +62,7 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     marginTop: 34,
-    backgroundColor: "pink",
+    backgroundColor: "red",
     justifyContent: "center",
     alignItems: "center",
   },
@@ -78,7 +78,7 @@ const styles = StyleSheet.create({
     padding: 8,
   },
   button: {
-    backgroundColor: "blue",
+    backgroundColor: "green",
     width: "80%",
     height: 50,
     alignItems: "center",
