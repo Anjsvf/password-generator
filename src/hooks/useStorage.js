@@ -8,7 +8,7 @@ try{
 return  JSON.parse(passwords) || [];
 
 } catch(error){
- console.log("erro ao bus" , error)
+ console.log(" ERRO AO BUSCAR.." , error)
  return [];
 }
 }
@@ -21,7 +21,7 @@ passwords.push(value)
 await AsyncStorage.setItem(key, JSON.stringify(passwords))
 
 }catch (error){
-    console.log("erro ao salvar" , error)
+    console.log("ERRO AO SALVAR A SENHA" , error)
 }
 }
 
@@ -38,7 +38,7 @@ try{
  return myPasswords;
     
 }catch(error){
-    console.log("erro ao deletar", error)
+    console.log("ERRO AO DELETAR SENHA", error)
 }
 }
 

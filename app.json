@@ -4,10 +4,10 @@
     "slug": "my-app",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/senha.png",
+    "icon": "./assets/logo-of-app.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/appground.png",
+      "image": "./assets/frontapp.png",
       "resizeMode": "contain",
       "backgroundColor": "#801245"
     },

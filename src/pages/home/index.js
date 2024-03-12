@@ -28,7 +28,7 @@ export  function Home() {
   return (
     <View style={styles.container}>
       <Image
-        source={require("../../assets/mylogo.png")}
+        source={require("../../assets/my-logo-app.png")}
         style={styles.logo}
       />
 
