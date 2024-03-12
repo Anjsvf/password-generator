@@ -35,7 +35,7 @@ export function Passwords(){
          
           <View style={styles.content}>
            <FlatList 
-           style={{flex:1, paddingTop:14 } }
+           style={{flex:1, paddingTop:30 } }
            data={listPasswords}
            keyExtractor={(item) => String(item) }
            renderItem={({item}) => <PasswordItem data={item} removePassword={() => handleDeletePassword(item)} /> }
@@ -49,12 +49,12 @@ export function Passwords(){
 
 const styles = StyleSheet.create({
     header:{
-        backgroundColor: "pink",
+        backgroundColor: "#5d5c49",
         paddingTop: 56,
-        marginBottom: 14,
+        marginBottom:0,
         // paddingLeft: 14,
         // paddingRight: 14,
-        padding: 20,
+        padding: 38,
         alignItems: "center"
     },
     title:{
@@ -66,6 +66,8 @@ const styles = StyleSheet.create({
     content:{
       flex: 1,
       paddingLeft: 14,
-      paddingRight: 14
+      paddingRight: 14,
+      margin:0,
+      backgroundColor: "#dcdbaf"
     }
 })

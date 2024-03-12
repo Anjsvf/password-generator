@@ -39,9 +39,9 @@ export  function Home() {
           style={{ height: 50 }}
           minimumValue={6}
           maximumValue={20}
-          maximumTrackTintColor="orange"
-          minimumTrackTintColor="blue"
-          thumbTintColor="yellow"
+          maximumTrackTintColor="#3d3d34"
+          minimumTrackTintColor="#801245"
+          thumbTintColor="#dcdbaf"
           value={size}
           onValueChange={(value) => setSize(value.toFixed(0))}
         />
@@ -62,7 +62,7 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     marginTop: 34,
-    backgroundColor: "red",
+    backgroundColor: "#dcdbaf",
     justifyContent: "center",
     alignItems: "center",
   },
@@ -73,12 +73,12 @@ const styles = StyleSheet.create({
     marginTop: 14,
     marginBottom: 14,
     width: "80%",
-    backgroundColor: "white",
+    backgroundColor: "#f4f4dd",
     borderRadius: 8,
     padding: 8,
   },
   button: {
-    backgroundColor: "green",
+    backgroundColor: "#3d3d34",
     width: "80%",
     height: 50,
     alignItems: "center",
@@ -94,5 +94,6 @@ const styles = StyleSheet.create({
   title: {
     fontSize: 30,
     fontWeight: "bold",
+    color:"#3d3d34"
   },
 });
